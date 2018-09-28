@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='toDoApp'>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>To Do App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/css/main.css">
+  <!-- endinject -->
+  <base href="/">
+</head>
+<body>
+  <div ng-view ></div>
+
+  <!-- inject:js -->
+  <script src="/node_modules/angular/angular.min.js"></script>
+  <script src="/node_modules/angular-route/angular-route.min.js"></script>
+  <script src="/app.module.js"></script>
+  <script src="/app.config.js"></script>
+  <script src="/js/toDoCntrl.js"></script>
+  <script src="/js/toDoList.js"></script>
+  <!-- endinject -->
+</body>
+</html>

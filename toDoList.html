@@ -1,0 +1,18 @@
+<div ng-controller="toDoCntrl">
+        <h1>My Todo List</h1>
+        <div class="content">
+            <form ng-submit="todoAdd()">
+                <input class="input" type="text" ng-model="todoInput" size="50" placeholder="Add New Task Here...." required>
+                <button type="submit">Add To List</button>
+            </form>
+
+            <br>
+            <div class="list">
+                <div ng-repeat="x in todoList">
+                    <input type="checkbox" ng-model="x.done"> <span ng-bind="x.todoText"></span>
+                </div>
+            </div>
+            <p><button ng-click="remove()">Remove Marked</button></p>
+
+        </div>
+    </div>

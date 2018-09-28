@@ -1,0 +1,24 @@
+{
+  "name": "todo-angular",
+  "version": "1.0.0",
+  "description": "angular+yarn",
+  "main": "app/index.html",
+  "scripts": {
+    "prestart": "gulp injection",
+    "start": "http-server -a localhost -p 8100",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ranjith",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "1.6.3",
+    "angular-route": "1.6.3",
+    "concurrently": "^4.0.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.3.2",
+    "gulp-stream": "^0.0.2",
+    "http-server": "^0.11.1",
+    "stream-series": "^0.1.1"
+  }
+}
