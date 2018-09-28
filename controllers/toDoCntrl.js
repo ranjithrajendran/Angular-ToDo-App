@@ -1,7 +1,7 @@
 angular.module('toDoApp')
     .controller('toDoCntrl', ($scope) => {
         $scope.todoList = [{
-            todoText: 'Clean The House',
+            todoText: 'To create an Angular app',
             done: false
         }];
 

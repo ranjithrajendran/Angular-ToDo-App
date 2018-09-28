@@ -5,7 +5,7 @@
   "main": "app/index.html",
   "scripts": {
     "prestart": "gulp injection",
-    "start": "http-server -a localhost -p 8100",
+    "start": "http-server -a 10.4.6.88 -p 8000",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ranjith",
